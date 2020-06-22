@@ -11,6 +11,6 @@ class GamesController < ApplicationController
   end
 
   def score
-    raise
+    @attempt = params[:word]
   end
 end
